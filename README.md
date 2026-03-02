@@ -35,8 +35,14 @@ The project demonstrates interoperability between different abstraction levels:
 
 **Steps:**
 1. Clone the repository: `git clone https://github.com/ttyomma/TaskManager-Asm-Py.git`
-2. Install Python dependencies: `pip install -r requirements.txt`
-3. Open `.sln` in Visual Studio and build the Assembly projects in **Release/x86** mode.
+2. 💡 Important: DLL for Python Source
+To run `app.py` directly from source, the **StatusPanel_dllVer.dll** must be present in the same directory as the script.
+**How to get the DLL:**
+  * **Option A (Build it):** Open the project in `Assembly_DLL/` folder using Visual Studio and build it in **Release/x86** mode.
+  * **Option B (Download it):** Download the latest [Release ZIP](https://github.com/ttyomma/TaskManager-Asm-Py/releases/tag/v1.0.0) and copy the `.dll` file from the `_internal` folder to your source directory.
+  * **Option С (Download it):** Direct download from folder [Python_UI](https://github.com/ttyomma/TaskManager-Asm-Py/tree/main/Python_UI) on Github
+3. Install Python dependencies: `pip install -r requirements.txt`
+4. Open `.sln` in Visual Studio and build the Assembly projects in **Release/x86** mode.
 
 ## 📸 Screenshots
 
@@ -82,6 +88,13 @@ The lightweight standalone version designed for minimal resource usage.
 * Visual Studio (з увімкненою підтримкою MASM)
 
 **Кроки:**
+**Кроки:**
 1. Клонувати репозиторій: `git clone https://github.com/ttyomma/TaskManager-Asm-Py.git`
-2. Встановити залежності: `pip install -r requirements.txt`
-3. Відкрити `.sln` у Visual Studio та зібрати проекти в режимі **Release/x86**.
+2. 💡 **Важливо: DLL для вихідного коду Python**
+   Щоб запустити `app.py` напряму з вихідного коду, файл **StatusPanel_dllVer.dll** має бути в тій же папці, що і скрипт.
+   **Як отримати DLL:**
+   * **Варіант А (Збірка):** Відкрийте проект у папці `Assembly_DLL/` через Visual Studio та зберіть його в режимі **Release/x86**.
+   * **Варіант Б (Завантаження):** Завантажте останній [Release ZIP](https://github.com/ttyomma/TaskManager-Asm-Py/releases/tag/v1.0.0) та скопіюйте файл `.dll` з папки `_internal` до вашої робочої директорії.
+   * **Варіант В (Завантаження):** Завантажити з папки [Python_UI](https://github.com/ttyomma/TaskManager-Asm-Py/tree/main/Python_UI) на Github
+3. Встановити залежності: `pip install -r requirements.txt`
+4. Відкрити `.sln` у Visual Studio та зібрати проекти в режимі **Release/x86**.
