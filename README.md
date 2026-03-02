@@ -34,7 +34,7 @@ The project demonstrates interoperability between different abstraction levels:
 * Visual Studio (with MASM build customizations enabled)
 
 **Steps:**
-1. Clone the repository: `git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git`
+1. Clone the repository: `git clone https://github.com/ttyomma/TaskManager-Asm-Py.git`
 2. Install Python dependencies: `pip install -r requirements.txt`
 3. Open `.sln` in Visual Studio and build the Assembly projects in **Release/x86** mode.
 
@@ -68,6 +68,6 @@ The project demonstrates interoperability between different abstraction levels:
 * Visual Studio (з увімкненою підтримкою MASM)
 
 **Кроки:**
-1. Клонувати репозиторій: `git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git`
+1. Клонувати репозиторій: `git clone https://github.com/ttyomma/TaskManager-Asm-Py.git`
 2. Встановити залежності: `pip install -r requirements.txt`
 3. Відкрити `.sln` у Visual Studio та зібрати проекти в режимі **Release/x86**.
