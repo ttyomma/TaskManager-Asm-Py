@@ -38,6 +38,20 @@ The project demonstrates interoperability between different abstraction levels:
 2. Install Python dependencies: `pip install -r requirements.txt`
 3. Open `.sln` in Visual Studio and build the Assembly projects in **Release/x86** mode.
 
+## 📸 Screenshots
+
+### GUI Version (Python + CustomTkinter)
+The modern interface provides a clean overview of system health and a detailed process manager.
+
+| Dashboard View | Processes Manager |
+|---|---|
+| ![Dashboard](assets/Python_GUI1.png) | ![Processes](assets/Python_GUI2.png) |
+
+### Console Version (x86 Assembly)
+The lightweight standalone version designed for minimal resource usage.
+
+![Assembly Console](assets/AssemblyUI.png)
+
 ---
 
 # Диспетчер завдань (Ядро ASM + Python GUI)
