@@ -1,0 +1,18 @@
+﻿LIBRARY StatusPanel_dllVer
+EXPORTS
+    InitSystem
+    UpdateStats
+    GetCpuName
+    GetGpuName
+    GetCpuLoad
+    GetRamLoad
+    GetRamTotalGB
+    GetRamUsedGB
+    GetDiskTotalGB
+    GetDiskUsedGB
+    GetNetRx
+    GetNetTx
+    GetUptime
+    GetProcesses
+    GetThreads
+    GetHandles
