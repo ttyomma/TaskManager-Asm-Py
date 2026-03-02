@@ -25,7 +25,7 @@ The project demonstrates interoperability between different abstraction levels:
 ## 🚀 Releases & Downloads
 **Don't have an Assembly compiler?** You can download the pre-compiled executable versions directly:
 
-👉 **[Download Latest Release (v1.0.0)](INSERT_YOUR_GITHUB_RELEASE_LINK_HERE)**
+👉 **[Download Latest Release (v1.0.0)](https://github.com/ttyomma/TaskManager-Asm-Py/releases/tag/v1.0.0)**
 *(Includes both the Standalone Console EXE and the GUI Application).*
 
 ## 🛠️ Installation & Build from Source
@@ -59,7 +59,7 @@ The project demonstrates interoperability between different abstraction levels:
 3. **Фронтенд (Python):** Використовує модуль `ctypes` для зв'язку з 32-бітною DLL та виведення даних у UI.
 
 ## 🚀 Релізи та Завантаження
-👉 **[Завантажити останній реліз (v1.0.0)](INSERT_YOUR_GITHUB_RELEASE_LINK_HERE)**
+👉 **[Завантажити останній реліз (v1.0.0)](https://github.com/ttyomma/TaskManager-Asm-Py/releases/tag/v1.0.0)**
 *(Архів включає як консольний EXE, так і GUI-додаток).*
 
 ## 🛠️ Встановлення та збірка з вихідного коду
