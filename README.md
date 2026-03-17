@@ -88,7 +88,6 @@ The lightweight standalone version designed for minimal resource usage.
 * Visual Studio (з увімкненою підтримкою MASM)
 
 **Кроки:**
-**Кроки:**
 1. Клонувати репозиторій: `git clone https://github.com/ttyomma/TaskManager-Asm-Py.git`
 2. 💡 **Важливо: DLL для вихідного коду Python**
    Щоб запустити `app.py` напряму з вихідного коду, файл **StatusPanel_dllVer.dll** має бути в тій же папці, що і скрипт.
