@@ -51,7 +51,7 @@ The modern interface provides a clean overview of system health and a detailed p
 
 | Dashboard View | Processes Manager |
 |---|---|
-| ![Dashboard](assets/Python_GUI1.1.png) | ![Processes](assets/Python_GUI2.1.png) |
+| ![Dashboard](assets/Python_GUI1.png) | ![Processes](assets/Python_GUI2.png) |
 
 ### Console Version (x86 Assembly)
 The lightweight standalone version designed for minimal resource usage.
