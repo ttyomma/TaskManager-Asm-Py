@@ -25,7 +25,7 @@ The project demonstrates interoperability between different abstraction levels:
 ## 🚀 Releases & Downloads
 **Don't have an Assembly compiler?** You can download the pre-compiled executable versions directly:
 
-👉 **[Download Latest Release (v1.1.0)](https://github.com/ttyomma/TaskManager-Asm-Py/releases/tag/1.1.0)**
+👉 **[Download Latest Release (v1.2.0)](https://github.com/ttyomma/TaskManager-Asm-Py/releases/tag/1.2.0)** 
 *(Includes both the Standalone Console EXE and the GUI Application).*
 
 ## 🛠️ Installation & Build from Source
@@ -39,8 +39,7 @@ The project demonstrates interoperability between different abstraction levels:
 To run `app.py` directly from source, the **StatusPanel_dllVer.dll** must be present in the same directory as the script.
 **How to get the DLL:**
   * **Option A (Build it):** Open the project in `Assembly_DLL/` folder using Visual Studio and build it in **Release/x86** mode.
-  * **Option B (Download it):** Download the latest [Release ZIP](https://github.com/ttyomma/TaskManager-Asm-Py/releases/tag/1.1.0) and copy the `.dll` file from the `_internal` folder to your source directory.
-  * **Option С (Download it):** Direct download from folder [Python_UI](https://github.com/ttyomma/TaskManager-Asm-Py/tree/main/Python_UI) on Github
+  * **Option B (Download it):** Direct download from folder [Python_UI](https://github.com/ttyomma/TaskManager-Asm-Py/tree/main/Python_UI) on Github
 3. Install Python dependencies: `pip install -r requirements.txt`
 4. Open `.sln` in Visual Studio and build the Assembly projects in **Release/x86** mode.
 
@@ -79,7 +78,7 @@ The lightweight standalone version designed for minimal resource usage.
 3. **Фронтенд (Python):** Використовує модуль `ctypes` для зв'язку з 32-бітною DLL та виведення даних у UI.
 
 ## 🚀 Релізи та Завантаження
-👉 **[Завантажити останній реліз (v1.0.0)](https://github.com/ttyomma/TaskManager-Asm-Py/releases/tag/1.1.0)**
+👉 **[Завантажити останній реліз (v1.2.0)](https://github.com/ttyomma/TaskManager-Asm-Py/releases/tag/1.2.0)**
 *(Архів включає як консольний EXE, так і GUI-додаток).*
 
 ## 🛠️ Встановлення та збірка з вихідного коду
@@ -92,8 +91,7 @@ The lightweight standalone version designed for minimal resource usage.
 2. 💡 **Важливо: DLL для вихідного коду Python**
    Щоб запустити `app.py` напряму з вихідного коду, файл **StatusPanel_dllVer.dll** має бути в тій же папці, що і скрипт.
    **Як отримати DLL:**
-   * **Варіант А (Збірка):** Відкрийте проект у папці `Assembly_DLL/` через Visual Studio та зберіть його в режимі **Release/x86**.
-   * **Варіант Б (Завантаження):** Завантажте останній [Release ZIP](https://github.com/ttyomma/TaskManager-Asm-Py/releases/tag/1.1.0) та скопіюйте файл `.dll` з папки `_internal` до вашої робочої директорії.
-   * **Варіант В (Завантаження):** Завантажити з папки [Python_UI](https://github.com/ttyomma/TaskManager-Asm-Py/tree/main/Python_UI) на Github
+   * **Варіант 1 (Збірка):** Відкрийте проект у папці `Assembly_DLL/` через Visual Studio та зберіть його в режимі **Release/x86**.
+   * **Варіант 2 (Завантаження):** Завантажити з папки [Python_UI](https://github.com/ttyomma/TaskManager-Asm-Py/tree/main/Python_UI) на Github
 3. Встановити залежності: `pip install -r requirements.txt`
 4. Відкрити `.sln` у Visual Studio та зібрати проекти в режимі **Release/x86**.
